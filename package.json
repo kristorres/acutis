@@ -17,6 +17,10 @@
             "import": "./src/index.js",
             "svelte": "./src/index.js"
         },
+        "./themes": {
+            "import": "./src/themes/index.js",
+            "svelte": "./src/themes/index.js"
+        },
         "./utils": {
             "import": "./src/utils/index.js"
         }

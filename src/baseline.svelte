@@ -1,3 +1,11 @@
+<svelte:head>
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://fonts.googleapis.com/css?family=Inter:300,400,700"
+    />
+</svelte:head>
+
 <style>
     :global {
         * {
