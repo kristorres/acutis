@@ -1,3 +1,9 @@
+<script>
+    import {Light} from "./themes"
+
+    const {theme: Theme = Light} = $props()
+</script>
+
 <svelte:head>
     <link
         rel="stylesheet"
@@ -42,3 +48,5 @@
         }
     }
 </style>
+
+<Theme />
