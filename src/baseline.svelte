@@ -16,7 +16,6 @@
     :global {
         * {
             box-sizing: border-box;
-            flex-shrink: 0;
             touch-action: none;
             -webkit-tap-highlight-color: transparent;
         }
