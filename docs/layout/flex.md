@@ -29,14 +29,14 @@ Usage
 Props
 -----
 
-| Name         | Type     | Default     | Description |
-| ------------ | -------- | ----------- | ----------- |
-| `children`   | `node`   | —           | The content of the component. |
-| `cross`      | `string` | `"stretch"` | The alignment of the flex items on the cross axis. |
-| `direction`  | `string` | `"column"`  | The “direction” of the flex items in the component. |
-| `gap`        | `string` | `"8px"`     | The space between the flex items in the component. |
-| `main`       | `string` | `"start"`   | The alignment of the flex items on the main axis. |
-| `pad`        | `string` | `"4px"`     | The padding between the content and container edge. |
-| `scrollable` | `bool`   | `false`     | If `true`, the component can be scrolled when the content overflows. |
+| Name         | Type               | Default     | Description |
+| ------------ | ------------------ | ----------- | ----------- |
+| `children`   | `node`             | —           | The content of the component. |
+| `cross`      | `string`           | `"stretch"` | The alignment of the flex items on the cross axis. |
+| `direction`  | `string`           | `"column"`  | The “direction” of the flex items in the component. |
+| `gap`        | `number \| string` | `"8px"`     | The space between the flex items in the component. The default unit of length is `px`. |
+| `main`       | `string`           | `"start"`   | The alignment of the flex items on the main axis. |
+| `pad`        | `number \| string` | `"4px"`     | The padding between the content and container edge. The default unit of length is `px`. |
+| `scrollable` | `bool`             | `false`     | If `true`, the component can be scrolled when the content overflows. |
 
 You can use DOM element attributes as props directly on the component.

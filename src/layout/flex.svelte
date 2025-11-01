@@ -1,4 +1,6 @@
 <script>
+    import label from "../utils/label.js"
+
     const {
         direction = null,
         main = null,
@@ -35,8 +37,8 @@
     style:flex-direction={direction}
     style:justify-content={main}
     style:align-items={cross}
-    style:gap
-    style:padding={pad}
+    style:gap={label(gap, "px")}
+    style:padding={label(pad, "px")}
     style:overflow
     {...rest}
 >
